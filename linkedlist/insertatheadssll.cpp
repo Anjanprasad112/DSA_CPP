@@ -11,7 +11,7 @@ class Node{
         this -> next = NULL;
     }    
     //destructuring
-    
+
      ~Node() {
         int value = this -> data;
         //memory free
@@ -124,7 +124,7 @@ int main(){
     insertAtMiddle(tail,head,2,100);
     print(head);
 
-    deleteNode(2,head);
+    deleteNode(7,head);
     print(head);
 
 
